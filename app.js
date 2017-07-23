@@ -1,5 +1,6 @@
 let convert = {};
 
+#from C to F
 convert.cToF = function(celsius) {
   if(!Number.isInteger(celsius)) return undefined;
   return celsius * 9 / 5 + 32;
