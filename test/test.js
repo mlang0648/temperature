@@ -27,7 +27,7 @@ describe('Temperature Conversion', function() {
   });
   describe('test', function() {
     it('should return 1', function() {
-      assert.equal(1, convert.test());
+      assert.equal(0, convert.test());
     });
   });
 
