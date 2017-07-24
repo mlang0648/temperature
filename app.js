@@ -12,4 +12,8 @@ convert.fToC = function(fahrenheit) {
   return (fahrenheit - 32) * 5 / 9;
 }
 
+convert.test = function() {
+  return 1;
+}
+
 module.exports = convert;

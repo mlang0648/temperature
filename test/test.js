@@ -23,6 +23,12 @@ describe('Temperature Conversion', function() {
     });
     it('should return undefined if no temperature is input', function(){
       assert.equal(undefined, convert.fToC(''));
-    })
+    });
   });
+  describe('test', function() {
+    it('should return 1', function() {
+      assert.equal(1, convert.test());
+    });
+  });
+
 });
